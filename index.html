@@ -14,17 +14,17 @@
 
     iframeStyles(".chat-frame {position: fixed;bottom: 12px;right: 12px;border: none;}")
 
-    iframe.src = "https://4fe4e3061076d8.lhr.life/chatbot"
+    iframe.src = "https://5acc18b04d788fa18ecf85dedd9b6bdb.serveo.net"
     iframe.classList.add('chat-frame')
     document.body.appendChild(iframe)
 
     window.addEventListener("message", (e) => {
-        if(e.origin !== "https://4fe4e3061076d8.lhr.life") return null
+        if(e.origin !== "https://5acc18b04d788fa18ecf85dedd9b6bdb.serveo.net") return null
         let dimensions = JSON.parse(e.data)
         console.log("dimensionsare",dimensions)
         iframe.width = dimensions.width
         iframe.height = dimensions.height
-        iframe.contentWindow.postMessage("f5f665aa-cbcb-496c-9651-847b6a832aeb", "https://4fe4e3061076d8.lhr.life")
+        iframe.contentWindow.postMessage("f5f665aa-cbcb-496c-9651-847b6a832aeb", "https://5acc18b04d788fa18ecf85dedd9b6bdb.serveo.net")
     })
     }
 
