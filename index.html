@@ -2,9 +2,9 @@
 <html>
 <head>
     <script>
-    function myFunction(){
 
 
+    setTimeout(()=>{
     const iframe = document.createElement("iframe");
 
     const iframeStyles = (styleString) => {
@@ -26,11 +26,12 @@
         iframe.height = dimensions.height
         iframe.contentWindow.postMessage("927eba3c-2579-4bce-bb73-2c3fbc321141", "https://chatbot.coolify.tap.health")
     })
+    },2000)
 
 
 
 
-    }
+    
     </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
