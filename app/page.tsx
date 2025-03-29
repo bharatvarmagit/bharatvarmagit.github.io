@@ -36,8 +36,8 @@ export default function Home() {
 
   return (
     <main
-      className="bg-black flex flex-col justify-center items-center overflow-hidden mx-auto">
-      <div className="w-screen">
+      className="bg-black flex flex-col justify-center items-center overflow-x-hidden  mx-auto">
+      <div className="max-w-full">
 
        <Hero skills={skills}/>
        <WorkExperience/>
