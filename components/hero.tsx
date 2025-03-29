@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import { Spotlight } from './ui/spotlight-new'
 import ColourfulText from './ui/colorful-text'
