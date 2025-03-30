@@ -37,10 +37,14 @@ export default function Home() {
   return (
     <main
       className="bg-black flex flex-col justify-center items-center overflow-x-hidden  mx-auto">
-      <div className="max-w-full">
+      <div className="max-w-full ">
 
+        {/* <section className='snap-start'> */}
        <Hero skills={skills}/>
+       {/* </section> */}
+       {/* <section className='snap-start'> */}
        <WorkExperience/>
+       {/* </section> */}
       </div>
     </main>
   );

@@ -37,7 +37,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
-        <h1 className="w-full pt-30 bg-clip-text font-semibold text-center text-2xl md:text-5xl mb-4 text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        <h1 className="w-full mx-2 pt-15 md:pt-30 bg-clip-text font-semibold text-center text-xl md:text-5xl mb-4 text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Timeline of my professional journey.
         </h1>
 

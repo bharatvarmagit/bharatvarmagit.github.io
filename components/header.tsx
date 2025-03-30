@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 function Header() {
   return (
-    <div className='left-9/12 h-10 top-10 mt-5 bg-transparent mr-10'>
+    <div className='left-9/12 h-20 pt-4 bg-transparent mr-10'>
         <div className="flex flex-row gap-3 justify-end items-center">
             <div className="cursor-pointer">
             <div className="flex flex-col justify-center items-center gap-1 cursor-pointer">

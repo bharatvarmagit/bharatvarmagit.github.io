@@ -15,7 +15,7 @@ type propsType = {
 function WorkContent({company,companyIcon,description,tools,role,
     description2,description3}:propsType) {
   return (
-    <div className="max-w-2xl w-full border-1 mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group">
+    <div className="max-w-2xl w-full px-auto p-6 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group">
         <div className='flex flex-row justify-start items-center gap-2'>
             {companyIcon&&
                 <Image
@@ -41,7 +41,7 @@ function WorkContent({company,companyIcon,description,tools,role,
             {description3}
           </p>
             }
-          <div className="flex flex-row justify-start items-center gap-5 mt-5">
+          <div className="flex flex-row justify-start items-center gap-5 mt-5 px-1 flex-wrap">
             {tools?.map((item:{name:string,icon:StaticImageData})=>(
                 <div
                     key={item.name}

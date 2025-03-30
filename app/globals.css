@@ -25,3 +25,13 @@ body{
   max-width: 100%;
   overflow-x: hidden;
 }
+
+
+.scroller{
+  scroll-snap-type: y mandatory;
+}
+
+.work-exp{
+  flex:1;
+  scroll-snap-align: start;
+}
